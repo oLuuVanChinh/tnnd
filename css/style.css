@@ -192,35 +192,6 @@ body {
 .slick-slide {
   margin: 0;
 }
-/*.slick-list {
-  margin: 0px -5px 0px -5px;
-}
-button.slick-next, button.slick-next:hover {
-  position: absolute;
-  top: 41%;
-  right: 54px;
-  width: 47px;
-  height: 75px;
-  background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
-  background-size: 95px;
-}
-button.slick-prev, button.slick-prev:hover {
-  position: absolute;
-  top: 41%;
-  left: 15px;
-  z-index: 1;
-  width: 47px;
-  height: 75px;
-  background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
-  background-size: 95px;
-      background-position-x: right;
-}
-.slick-prev:before, .slick-next:before {
-  font-size: 70px;
-  color: #EA8496;
-  line-height: inherit;
-  font-weight: bold;
-}*/
 .slider img {
   height: 538px;
 }
@@ -784,20 +755,21 @@ footer {
   margin-bottom: 0;
 }
 .adver-left {
+  position: relative;
+}
+.adver-left {
   display: inline-block;
   position: fixed;
   z-index: 2;
-  top: 50%;
-  left: 70px;
-  transform: translate(0, -50%);
+  margin-left: -176px;
+  top: 270px;
 }
 .adver-right {
   display: inline-block;
   position: fixed;
   z-index: 2;
-  top: 50%;
-  right: 70px;
-  transform: translate(0, -50%);
+  margin-left: 1052px;
+  top: 270px;
 }
 
 
@@ -890,7 +862,7 @@ footer {
 
 .vlog .no-scrollbar::-webkit-scrollbar {
   display: none;
-}
+}   
 
 /*Scrollbars*/
 .vlog ::-webkit-scrollbar{
@@ -900,7 +872,7 @@ footer {
 
 .vlog ::-webkit-scrollbar-track-piece{
   background-color: #f3f7fa;
-}
+} 
 
 .vlog ::-webkit-scrollbar-thumb{
   background-color: #ff91af;
@@ -913,5 +885,40 @@ footer {
 .vlog ::-webkit-scrollbar-thumb:hover{
   background-color: #ff91af;
 }
+/*end index page-------------------------------------------------------------------*/
+
+.student-item {
+  display: flex;
+  margin-top: 20px;
+}
+.student-text {
+  height: 196px;
+  border: 2px dashed #b2bec6;
+  border-left: 0;
+  border-radius: 0 10px 10px 0;
+  margin-top: 11px;
+  padding: 20px 25px;
+}
+.student-title a {
+  font-size: 16px;
+  color: #5abeff;
+}
+.student-time {
+  color: #28475c;
+}
+.student-more {
+  text-align: center;
+  margin: 25px 0 30px 0;
+}
+.student-more a {
+  font-size: 24px;
+  color: #fd7ea1;
+}
+
+
+
+
+
+
 
 
