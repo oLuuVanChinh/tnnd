@@ -15,6 +15,9 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
   </head>
   <body>
     <div class="header">
@@ -77,6 +80,66 @@
               </li>
               <li><a href="#">Học trò blog</a></li>
             </ul>
+          </div>
+          <!-- canvas menu -->
+          <a href="#" class="toggle-nav btn btn-lg btn-success" id="big-sexy">
+             <i class="icofont-listine-dots"></i>
+           </a>
+          <div id="site-wrapper">
+           <div id="site-canvas">
+             <div id="site-menu">
+               <a href="#" class="toggle-nav">
+                 <i class="icofont-close"></i>
+               </a>
+                <div class="col">
+                  <div class="tabs">
+                    <div class="tab none-check">
+                      <input type="checkbox" id="chck0">
+                      <label class="tab-label" for="chck0"><a href="#">Trang chủ</a></label>
+                    </div>
+                    <!-- end tab -->
+                    <div class="tab">
+                      <input type="checkbox" id="chck1">
+                      <label class="tab-label" for="chck1"><a href="#">Tin tức học đường</a></label>
+                      <div class="tab-content">
+                        <ul>
+                          <li><a href="#">Tin tức nổi bật</a></li>
+                          <li><a href="#">Màu sắc học trò</a></li>
+                          <li><a href="#">Tin giáo dục</a></li>
+                          <li><a href="#">Tin dịch bệnh</a></li>
+                          <li><a href="#">Tin mới</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- end tab -->
+                    <div class="tab none-check">
+                      <input type="checkbox" id="chck2">
+                      <label class="tab-label" for="chck2"><a href="#">Cẩm nang kỹ năng</a></label>
+                    </div>
+                    <!-- end tab -->
+                    <div class="tab">
+                      <input type="checkbox" id="chck4">
+                      <label class="tab-label" for="chck4"><a href="#">Sân chơi học trò</a></label>
+                      <div class="tab-content">
+                        <ul>
+                          <li><a href="#">Tin tức nổi bật</a></li>
+                          <li><a href="#">Màu sắc học trò</a></li>
+                          <li><a href="#">Tin giáo dục</a></li>
+                          <li><a href="#">Tin dịch bệnh</a></li>
+                          <li><a href="#">Tin mới</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- end tab -->
+                    <div class="tab none-check">
+                      <input type="checkbox" id="chck5">
+                      <label class="tab-label" for="chck5"><a href="#">Học trò blog</a></label>
+                    </div>
+                    <!-- end tab -->
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- end menu -->
           <div class="header-noti">
@@ -242,7 +305,6 @@
         </div>
         <!-- end student -->
         <div class="online">
-          <img src="img/online_bg.png" alt="">
           <div class="online-form">
             <div class="form-group">
               <h2 class="title">Đọc báo online</h2>
@@ -262,7 +324,7 @@
         <div class="skill">
           <h2 class="title"><span>Tin nổi bật</span></h2>
           <div class="skill-list">
-            <div class="skill-item col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="skill-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <div class="skill-img">
                 <a href="#"><img src="img/img-skill.png" alt=""></a>
               </div>
@@ -278,7 +340,7 @@
               </div>
             </div>
             <!-- end skill item -->
-            <div class="skill-item col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="skill-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <div class="skill-img">
                 <a href="#"><img src="img/img-skill1.png" alt=""></a>
               </div>
@@ -294,7 +356,7 @@
               </div>
             </div>
             <!-- end skill item -->
-            <div class="skill-item col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="skill-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <div class="skill-img">
                 <a href="#"><img src="img/img-skill2.png" alt=""></a>
               </div>
@@ -310,7 +372,7 @@
               </div>
             </div>
             <!-- end skill item -->
-            <div class="skill-item col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="skill-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <div class="skill-img">
                 <a href="#"><img src="img/img-skill3.png" alt=""></a>
               </div>
@@ -326,7 +388,7 @@
               </div>
             </div>
             <!-- end skill item -->
-            <div class="skill-item col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="skill-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <div class="skill-img">
                 <a href="#"><img src="img/img-skill4.png" alt=""></a>
               </div>
@@ -342,7 +404,7 @@
               </div>
             </div>
             <!-- end skill item -->
-            <div class="skill-item col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="skill-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <div class="skill-img">
                 <a href="#"><img src="img/img-skill5.png" alt=""></a>
               </div>
@@ -369,7 +431,7 @@
       <div class="footer">
         <div class="container footer-waper">
           <div class="row">
-            <div class="footer-list col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-list col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <a href="#">
                 <img src="img/log_footer.png" alt="">
               </a>
@@ -397,7 +459,7 @@
                 </p>
               </div>
             </div>
-            <div class="footer-list col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-list col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <p class="footer--title">Bài viết Xem nhiều nhất  </p>
               <div class="lot-list">
                 <div class="lot-item">
@@ -438,7 +500,7 @@
                 <!-- end lot item -->
               </div>
             </div>
-            <div class="footer-list col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-list col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <p class="footer--title">Fanpage</p>
               <div class="fanpage">
                 <a href="#">

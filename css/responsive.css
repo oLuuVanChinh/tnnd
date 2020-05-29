@@ -11,6 +11,18 @@
 	}
 }
 @media (max-width: 1024px){
+	.header-logo {
+    margin-right: 20px;
+	}
+	#menu >ul >li {
+    margin: 0 5px;
+	}
+	.header-noti a {
+		font-size: 14px;
+    height: 40px;
+    width: 80px;
+    line-height: 40px;
+	}
 	.online .form-control {
 		height: 40px;
 	}
@@ -24,13 +36,115 @@
 	}
 }
 @media (max-width: 991px){
-
+	.header-logo {
+	margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%, 0);
+	}
+	#site-wrapper {
+		display: block;
+	}
+	#menu {
+		display: none;
+	}
+	#big-sexy {
+		display: block;
+	}
+	.online-form {
+		padding-top: 25px;
+	}
+	.online .form-control {
+		height: 35px;
+		width: 200px;
+	}
+	.online .btn--link {
+		height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    bottom: -22px;
+	}
 }
 @media (max-width: 768px){
-
+	.header {
+		background-color: #bbe4ff;
+		background-position: bottom;
+	}
+	.header-top {
+    display: inline-block;
+    height: 55px;
+    line-height: 25px;
+    padding: 0 10px;
+	}
+	.content {
+    padding: 0 10px 20px 10px;
+	}
+	.contest-top {
+		margin-bottom: 20px;
+	}
+	.playgr-big {
+		margin-bottom: 20px;
+	}
+	.partner-item {
+		margin-bottom: 20px;
+	}
+	.slider-text h2,
+	.title {
+		font-size: 26px;
+	}
+	.slider-text h3 {
+		font-size: 18px;
+	}
+	.btn--link {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 40px;
+	}
+	.news-title a {
+		font-size: 16px;
+	}
+	.vlog .news-waper img {
+		width: 100%;
+	}
+	.vlog .item {
+    width: 360px;
+		height: 335px;
+	}
+	.footer--title {
+    margin: 10px 0;
+	}
+	.lot-item {
+    margin-bottom: 10px;
+	}
+	.post-status {
+		display: block;
+	}
+	.post-status span {
+		margin-right: 10px;
+	}
+	.header-menu {
+		padding: 0 10px;
+	}
+	.student-item {
+		display: block;
+		text-align: center;
+	}
+	.student-img {
+		margin-bottom: 15px;
+	}
+	.sport  .student-text {
+    border: 2px dashed #b2bec6;
+    height: 180px;
+    border-radius: 10px;
+	}
 }
 @media (max-width: 480px){
-    
+	.vlog .item {
+    width: 254px;
+    height: 325px;
+	}
 }
 /*-----------------------------min width*/
 @media (min-width: 1366px){
