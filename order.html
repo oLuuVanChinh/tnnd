@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-  <title>Categories...</title>
+  <title>Order...</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
@@ -17,6 +17,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/index.js"></script>
   </head>
   <body>
@@ -151,7 +152,7 @@
       <!-- end header nav -->
     </div>
     <!-- end header -->
-    <div class="container categories">
+    <div class="container">
       <div class="content">
         <div class="banner">
           <a href="#" class="banner--img">
@@ -159,151 +160,91 @@
           </a>
         </div>
         <!-- end banner -->
-        <div class="playgr">
-          <h2 class="title"><span>Bài viết mới</span></h2>
-          <div class="row">
-            <div class="playgr-big col-lg-6 col-md-6 col-sm-6 col-xs-12">
-              <a href="#">
-                <img src="img/play1-img.png" alt="">
-              </a>
-            </div>
-            <div class="playgr-small col-lg-6 col-md-6 col-sm-6 col-xs-12">
-              <div class="row">
-                <div class="playgr-small-img col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <a href="#">
-                    <img src="img/play2-img.png" alt="">
-                  </a>
-                </div>
-                <div class="playgr-small-img col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <a href="#">
-                    <img src="img/play3-img.png" alt="">
-                  </a>
-                </div>
-                <div class="playgr-small-img col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <a href="#">
-                    <img src="img/play4-img.png" alt="">
-                  </a>
-                </div>
-                <div class="playgr-small-img col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <a href="#">
-                    <img src="img/play5-img.png" alt="">
-                  </a>
+
+        <div class="order">
+          <h2 class="title"><span>Danh sách tạp chí</span></h2>
+          <div class="order-list">
+            <div class="row">
+              <div class="order-item col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="order-box order-box-1 item-select">
+                  <div class="order-img">
+                    <a href="#"><img src="img/tc.png" alt=""></a>
+                  </div>
+                  <div class="order-text">
+                    <div class="order-title">
+                      <a href="#">
+                        Tạp chí ABC
+                      </a>
+                      <input type="checkbox" class="form-check-input" id="check1" checked>
+                    </div>
+                    <p class="order-des">
+                      Trong những ngày đầu năm mới, đoàn công tác Báo Thiếu niên Tiền phong và Nhi Đồng đã về với các...
+                    </p>
+                  </div>
                 </div>
               </div>
+              <!-- end order item -->
+              <div class="order-item col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="order-box order-box-2">
+                  <div class="order-img">
+                    <a href="#"><img src="img/tc.png" alt=""></a>
+                  </div>
+                  <div class="order-text">
+                    <div class="order-title">
+                      <a href="#">
+                        Tạp chí ABC
+                      </a>
+                      <input type="checkbox" class="form-check-input" id="check2">
+                    </div>
+                    <p class="order-des">
+                      Trong những ngày đầu năm mới, đoàn công tác Báo Thiếu niên Tiền phong và Nhi Đồng đã về với các...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end order item -->
+              <div class="order-item col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="order-box order-box-3">
+                  <div class="order-img">
+                    <a href="#"><img src="img/tc.png" alt=""></a>
+                  </div>
+                  <div class="order-text">
+                    <div class="order-title">
+                      <a href="#">
+                        Tạp chí ABC
+                      </a>
+                      <input type="checkbox" class="form-check-input" id="check3">
+                    </div>
+                    <p class="order-des">
+                      Trong những ngày đầu năm mới, đoàn công tác Báo Thiếu niên Tiền phong và Nhi Đồng đã về với các...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end order item -->
+              <div class="order-item col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="order-box order-box-4 item-select">
+                  <div class="order-img">
+                    <a href="#"><img src="img/tc.png" alt=""></a>
+                  </div>
+                  <div class="order-text">
+                    <div class="order-title">
+                      <a href="#">
+                        Tạp chí ABC
+                      </a>
+                      <input type="checkbox" class="form-check-input" id="check4" checked>
+                    </div>
+                    <p class="order-des">
+                      Trong những ngày đầu năm mới, đoàn công tác Báo Thiếu niên Tiền phong và Nhi Đồng đã về với các...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end order item -->
             </div>
           </div>
         </div>
-        <!-- end playground -->
-        <div class="banner">
-          <a href="#" class="banner--img">
-            <img src="img/banner2.png" alt="">
-          </a>
-        </div>
-        <!-- end banner -->
-        <div class="student">
-          <h2 class="title"><span>Tin học trò</span></h2>
-          <div class="student-list">
-            <div class="student-item">
-              <div class="student-img">
-                <a href="#"><img src="img/img-student.png" alt=""></a>
-              </div>
-              <div class="student-text">
-                <h4 class="student-title">
-                  <a href="#">
-                    Tết ấm cho em về với thiếu nhi Na Hang
-                  </a>
-                </h4>
-                <p class="student-time">
-                  12 Jan 2020
-                </p>
-                <p class="student-des">
-                  Trong những ngày đầu năm mới, đoàn công tác Báo Thiếu niên Tiền phong và Nhi Đồng đã về với các...
-                </p>
-              </div>
-            </div>
-            <!-- end student item -->
-            <div class="student-item">
-              <div class="student-img">
-                <a href="#"><img src="img/img-student1.png" alt=""></a>
-              </div>
-              <div class="student-text">
-                <h4 class="student-title">
-                  <a href="#">
-                    Tết ấm cho em về với thiếu nhi Na Hang
-                  </a>
-                </h4>
-                <p class="student-time">
-                  12 Jan 2020
-                </p>
-                <p class="student-des">
-                  Trong những ngày đầu năm mới, đoàn công tác Báo Thiếu niên Tiền phong và Nhi Đồng đã về với các...
-                </p>
-              </div>
-            </div>
-            <!-- end student item -->
-            <div class="student-item">
-              <div class="student-img">
-                <a href="#"><img src="img/img-student2.png" alt=""></a>
-              </div>
-              <div class="student-text">
-                <h4 class="student-title">
-                  <a href="#">
-                    Tết ấm cho em về với thiếu nhi Na Hang
-                  </a>
-                </h4>
-                <p class="student-time">
-                  12 Jan 2020
-                </p>
-                <p class="student-des">
-                  Trong những ngày đầu năm mới, đoàn công tác Báo Thiếu niên Tiền phong và Nhi Đồng đã về với các...
-                </p>
-              </div>
-            </div>
-            <!-- end student item -->
-            <div class="student-item">
-              <div class="student-img">
-                <a href="#"><img src="img/img-student3.png" alt=""></a>
-              </div>
-              <div class="student-text">
-                <h4 class="student-title">
-                  <a href="#">
-                    Tết ấm cho em về với thiếu nhi Na Hang
-                  </a>
-                </h4>
-                <p class="student-time">
-                  12 Jan 2020
-                </p>
-                <p class="student-des">
-                  Trong những ngày đầu năm mới, đoàn công tác Báo Thiếu niên Tiền phong và Nhi Đồng đã về với các...
-                </p>
-              </div>
-            </div>
-            <!-- end student item -->
-            <div class="student-item">
-              <div class="student-img">
-                <a href="#"><img src="img/img-student4.png" alt=""></a>
-              </div>
-              <div class="student-text">
-                <h4 class="student-title">
-                  <a href="#">
-                    Tết ấm cho em về với thiếu nhi Na Hang
-                  </a>
-                </h4>
-                <p class="student-time">
-                  12 Jan 2020
-                </p>
-                <p class="student-des">
-                  Trong những ngày đầu năm mới, đoàn công tác Báo Thiếu niên Tiền phong và Nhi Đồng đã về với các...
-                </p>
-              </div>
-            </div>
-            <!-- end student item -->
-          </div>
-          <div class="student-more">
-            <a href="#">Xem thêm</a>
-          </div>
-        </div>
-        <!-- end student -->
+        <!-- end order -->
         <div class="online">
           <div class="online-form">
             <div class="form-group">
@@ -311,118 +252,25 @@
               <p>
                 <input type='text' class="form-control" placeholder="Họ tên" />
                 <input type='text' class="form-control" placeholder="Số điện thoại" />
+                <input type='text' class="form-control" placeholder="Địa chỉ người nhận" />
               </p>
               <p>
                 <input type='text' class="form-control" placeholder="Email" />
                 <input type='text' class="form-control" placeholder="Số kỳ báo" />
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Đặt theo 3 tháng 1</option>
+                  <option>Đặt theo 3 tháng 1</option>
+                  <option>Đặt theo 3 tháng 1</option>
+                  <option>Đặt theo 3 tháng 1</option>
+                  <option>Đặt theo 3 tháng 1</option>
+                </select>
               </p>
             </div>
           </div>
+          <p class="online-total">Tổng: 245.000 vnđ</p>
           <a class="btn--link" href="#">Đặt ngay</a>
         </div>
         <!-- end online -->
-        <div class="skill">
-          <h2 class="title"><span>Tin nổi bật</span></h2>
-          <div class="skill-list">
-            <div class="skill-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
-              <div class="skill-img">
-                <a href="#"><img src="img/img-skill.png" alt=""></a>
-              </div>
-              <div class="skill-text">
-                <h4 class="skill-title">
-                  <a href="#">
-                    Tết ấm cho em về với thiếu nhi Na Hang
-                  </a>
-                </h4>
-                <p class="skill-des">
-                  Trong những ngày đầu năm mới, đoàn công tác 
-                </p>
-              </div>
-            </div>
-            <!-- end skill item -->
-            <div class="skill-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
-              <div class="skill-img">
-                <a href="#"><img src="img/img-skill1.png" alt=""></a>
-              </div>
-              <div class="skill-text">
-                <h4 class="skill-title">
-                  <a href="#">
-                    Tết ấm cho em về với thiếu nhi Na Hang
-                  </a>
-                </h4>
-                <p class="skill-des">
-                  Trong những ngày đầu năm mới, đoàn công tác 
-                </p>
-              </div>
-            </div>
-            <!-- end skill item -->
-            <div class="skill-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
-              <div class="skill-img">
-                <a href="#"><img src="img/img-skill2.png" alt=""></a>
-              </div>
-              <div class="skill-text">
-                <h4 class="skill-title">
-                  <a href="#">
-                    Tết ấm cho em về với thiếu nhi Na Hang
-                  </a>
-                </h4>
-                <p class="skill-des">
-                  Trong những ngày đầu năm mới, đoàn công tác 
-                </p>
-              </div>
-            </div>
-            <!-- end skill item -->
-            <div class="skill-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
-              <div class="skill-img">
-                <a href="#"><img src="img/img-skill3.png" alt=""></a>
-              </div>
-              <div class="skill-text">
-                <h4 class="skill-title">
-                  <a href="#">
-                    Tết ấm cho em về với thiếu nhi Na Hang
-                  </a>
-                </h4>
-                <p class="skill-des">
-                  Trong những ngày đầu năm mới, đoàn công tác 
-                </p>
-              </div>
-            </div>
-            <!-- end skill item -->
-            <div class="skill-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
-              <div class="skill-img">
-                <a href="#"><img src="img/img-skill4.png" alt=""></a>
-              </div>
-              <div class="skill-text">
-                <h4 class="skill-title">
-                  <a href="#">
-                    Tết ấm cho em về với thiếu nhi Na Hang
-                  </a>
-                </h4>
-                <p class="skill-des">
-                  Trong những ngày đầu năm mới, đoàn công tác 
-                </p>
-              </div>
-            </div>
-            <!-- end skill item -->
-            <div class="skill-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
-              <div class="skill-img">
-                <a href="#"><img src="img/img-skill5.png" alt=""></a>
-              </div>
-              <div class="skill-text">
-                <h4 class="skill-title">
-                  <a href="#">
-                    Tết ấm cho em về với thiếu nhi Na Hang
-                  </a>
-                </h4>
-                <p class="skill-des">
-                  Trong những ngày đầu năm mới, đoàn công tác 
-                </p>
-              </div>
-            </div>
-            <!-- end skill item -->
-          </div>
-        </div>
-        <!-- end skill -->
       </div>
       <!-- end content -->
     </div>

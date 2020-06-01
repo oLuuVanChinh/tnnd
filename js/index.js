@@ -18,3 +18,44 @@ function toggleNav() {
         $('#site-wrapper').addClass('show-nav');
     }
 }
+
+// add class checkbox
+$(document).ready(function () {
+  $("#check1").click(function () {
+    if($(this).is(":checked")) {
+      $(".order-box-1").addClass("item-select");
+    }else {
+      $(".order-box-1").removeClass("item-select");
+    }
+  });
+});
+
+$(document).ready(function () {
+  $("#check2").click(function () {
+    if($(this).is(":checked")) {
+      $(".order-box-2").addClass("item-select");
+    }else {
+      $(".order-box-2").removeClass("item-select");
+    }
+  });
+});
+
+$(document).ready(function () {
+  $("#check3").click(function () {
+    if($(this).is(":checked")) {
+      $(".order-box-3").addClass("item-select");
+    }else {
+      $(".order-box-3").removeClass("item-select");
+    }
+  });
+});
+
+$(document).ready(function () {
+  $("#check4").click(function () {
+    if($(this).is(":checked")) {
+      $(".order-box-4").addClass("item-select");
+    }else {
+      $(".order-box-4").removeClass("item-select");
+    }
+  });
+});

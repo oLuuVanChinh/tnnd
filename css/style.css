@@ -647,6 +647,7 @@ body {
   height: 60px;
   margin: 5px 10px;
   border-radius: 15px;
+  font-size: 16px;
 }
 .online-form {
   padding-top: 25px;
@@ -1107,22 +1108,24 @@ footer {
   padding: 15px;
 }
 #big-sexy {
-  display: none;
   position: absolute;
-  top: 20px;
+  top: 22px;
+  display: none;
   width: 35px;
   margin: 0 auto;
   font-size: 26px;
   font-weight: 300;
   height: 35px;
   padding: 0;
-  background: #428bca;
+  background: #fdd002;
+  border-color: #fdd002;
 }
 .toggle-nav {
   width: 30px;
   height: 30px;
   display: inline-block;
   text-align: center;
+  font-size: 30px;
 }
 .toggle-nav i {
   color: #fff;
@@ -1133,7 +1136,7 @@ footer {
 }
 
 /*----------accor*/
-input {
+.show-nav input {
   position: absolute;
   opacity: 0;
   z-index: -1;
@@ -1215,4 +1218,49 @@ input:checked ~ .tab-content {
 }
 .none-check .tab-label:after {
   transform: inherit!important;
-} 
+}
+
+/*Order page-------------------------------------------*/
+.online-total {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.order {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.order-img {
+  margin-right: 20px;
+}
+.order-title a {
+  font-size: 16px;
+  color: #5abeff;
+}
+.order-des {
+  margin-top: 10px;
+  padding-right: 20px;
+}
+.order input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+.order-title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.order-box {
+  display: flex;
+  margin-top: 20px;
+  border: 2px dashed transparent;
+}
+.item-select {
+  border-color: #b2bec6;
+  background: #d9f0ff;
+}

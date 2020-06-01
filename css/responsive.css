@@ -30,17 +30,28 @@
 		height: auto;
 		background-color: #8Bd1ff;
     background-position: left;
+    padding-bottom: 30px;
 	}
 	.fanpage img {
 		width: auto;
 	}
 }
 @media (max-width: 991px){
+	.header-nav {
+		padding: 20px 10px;
+		z-index: 2;
+	}
+	#big-sexy {
+		display: block;
+	}
+	.header-noti {
+		margin-top: 0;
+	}
 	.header-logo {
-	margin: 0;
+		margin: 0;
     position: absolute;
     left: 50%;
-    top: 0px;
+    top: 4px;
     transform: translate(-50%, 0);
 	}
 	#site-wrapper {
@@ -48,9 +59,6 @@
 	}
 	#menu {
 		display: none;
-	}
-	#big-sexy {
-		display: block;
 	}
 	.online-form {
 		padding-top: 25px;
@@ -73,15 +81,18 @@
 	}
 	.header-top {
     display: inline-block;
-    height: 55px;
+    height: auto;
     line-height: 25px;
-    padding: 0 10px;
+    padding: 10px;
 	}
 	.content {
     padding: 0 10px 20px 10px;
 	}
 	.contest-top {
 		margin-bottom: 20px;
+	}
+	.slick-slide img {
+		width: 100%;
 	}
 	.playgr-big {
 		margin-bottom: 20px;
@@ -131,19 +142,51 @@
 		display: block;
 		text-align: center;
 	}
-	.student-img {
-		margin-bottom: 15px;
+	.student-img img {
+		width: 100%;
+	}
+	.student-text {
+		margin-top: 0;
+		border: 2px dashed #b2bec6;
+		border-top: 0;
+		border-radius: 0 0 10px 10px;
 	}
 	.sport  .student-text {
     border: 2px dashed #b2bec6;
+    border-top: 0;
     height: 180px;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
+	}
+	.student-title {
+		margin-top: 0;
+		padding-top: 10px;
+	}
+	.sport {
+		margin-bottom: 20px;
+	}
+	.breadcrumb ul li a {
+		font-size: 13px;
+	}
+	.sidebar {
+		padding: 0;
+	}
+	.lot-text .news-des {
+		width: auto;
 	}
 }
 @media (max-width: 480px){
 	.vlog .item {
     width: 254px;
     height: 325px;
+	}
+	.footer-waper {
+    padding: 0 10px;
+	}
+	.fanpage img {
+		width: 100%;
+	}
+	.sport .student-text {
+		height: auto;
 	}
 }
 /*-----------------------------min width*/
