@@ -59,3 +59,19 @@ $(document).ready(function () {
     }
   });
 });
+
+// -------------------------------scoll height
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 100) {
+      $('.adver-right').addClass('fixed-right');
+      $('.adver-left').addClass('fixed-left');
+    }
+    else {
+      $('.adver-right').removeClass('fixed-right');
+      $('.adver-left').removeClass('fixed-left');
+    }
+});
+
+
+
+

@@ -124,11 +124,11 @@ body {
 }
 .sub-menu li:first-child {
   border-top: 2px dashed #ffb17e;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
 }
 .sub-menu li:last-child {
   border-bottom: 2px dashed #ffb17e;
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
 }
 #menu li {
   position: relative;
@@ -752,6 +752,20 @@ footer {
   margin-left: 1052px;
   top: 270px;
 }
+.fixed-right {
+  display: inline-block;
+  position: fixed;
+  z-index: 2;
+  margin-left: 1052px;
+  top: 0;
+}
+.fixed-left {
+  display: inline-block;
+  position: fixed;
+  z-index: 2;
+  margin-left: -176px;
+  top: 0;
+}
 
 
 /*----------------------*/
@@ -1264,3 +1278,5 @@ input:checked ~ .tab-content {
   border-color: #b2bec6;
   background: #d9f0ff;
 }
+
+
