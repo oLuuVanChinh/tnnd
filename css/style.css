@@ -708,21 +708,7 @@ body {
   background: #ea7433;
   text-transform: uppercase;
 }
-
-.partner {
-  overflow: hidden;
-}
-.partner .title span:before {
-  background: #faf2c1;
-}
-.partner a {
-  display: inline-block;
-  width: 100%;
-}
-.partner a img {
-  width: 100%;
-}
-
+/*end online*/
 
 footer {
   background: url("../img/footer_bg.png") repeat-x;
@@ -932,6 +918,47 @@ footer {
 .vlog ::-webkit-scrollbar-thumb:hover{
   background-color: #ff91af;
 }
+/*end vlog*/
+
+.partner {
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.partner .title span:before {
+  background: #faf2c1;
+}
+.partner .title {
+  text-align: left;
+  margin-top: 20px;
+}
+.partner-list {
+  position: relative;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  transition: all 0.2s;
+  will-change: transform;
+  user-select: none;
+  cursor: pointer;
+  padding-top: 35px;
+}
+.partner-item {
+  display: inline-flex;
+  height: 125px;
+  width: 225px;
+  margin: 0 25px 0 0;
+  border-radius: 4px;
+  transition: background-color 300ms ease;
+}
+.partner-item a {
+  display: inline-block;
+  width: 100%;
+}
+.partner-item img {
+  width: 100%;
+}
+/*end partner*/
 /*end index page-------------------------------------------------------------------*/
 
 .student {
