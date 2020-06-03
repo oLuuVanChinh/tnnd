@@ -72,6 +72,3 @@ $(window).scroll(function(){
     }
 });
 
-
-
-
